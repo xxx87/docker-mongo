@@ -11,7 +11,7 @@ services:
       - 27017:27017
     networks:
       - local_mongo_net
-    #restart: always
+    restart: always
 
   # mongo-express:
   #   image: mongo-express
